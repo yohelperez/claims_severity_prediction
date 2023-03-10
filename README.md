@@ -1,4 +1,4 @@
-# Proyect Claims Severity Prediction
+# Proyecto Claims Severity Prediction
 
 ## Miembros del grupo
 * TATIANA ELIZABETH SÁNCHEZ SANIN, CC, Ingeniería de Sistemas
