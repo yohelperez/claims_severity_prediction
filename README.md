@@ -1,8 +1,8 @@
 # Proyecto Claims Severity Prediction
 
 ## Miembros del grupo
-* TATIANA ELIZABETH SÁNCHEZ SANIN, CC, Ingeniería de Sistemas
-* DANIELA ANDREA PAVAS BEDOYA, CC, Ingeniería de Sistemas
+* TATIANA ELIZABETH SÁNCHEZ SANIN, CC 1125348235, Ingeniería de Sistemas
+* DANIELA ANDREA PAVAS BEDOYA, CC 1192741700, Ingeniería de Sistemas
 
 
 ## Datos
