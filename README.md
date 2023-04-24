@@ -39,5 +39,5 @@ Luego dar click en el boton "Elegir archivos" para cargar el archivo .json
 
 ## Videos
 
-[Video entrega 2](https://youtu.be/wNEXl7stYR4)  
-[Video entrega final]()
+[Video entrega 1](https://youtu.be/wNEXl7stYR4)  
+[Video entrega 2]()
