@@ -1,6 +1,7 @@
 # Proyecto Claims Severity Prediction
 
 ## Miembros del grupo
+* YOHEL OSVALDO PEREZ GARCIA, CC.1035921408, Ingeniería de Sistemas
 * TATIANA ELIZABETH SÁNCHEZ SANIN, CC 1125348235, Ingeniería de Sistemas
 * DANIELA ANDREA PAVAS BEDOYA, CC 1192741700, Ingeniería de Sistemas
 
@@ -8,25 +9,35 @@
 ## Datos
 Los datos del proyecto se toman de la competición [Allstate State Claims Severity](https://www.kaggle.com/competitions/allstate-claims-severity/data). Los pasos para hacerlos disponibles en google collab son los siguientes:  
 
-1. Dar click en "Download all"  
+1. Estando logueado en la cuenta de Kaggle, irse a Settings y dar click en "Create New Token":  
 
-![image](https://user-images.githubusercontent.com/55060788/224440274-59b87c57-1e3a-4a75-bd6a-6b720dace733.png)  
+![image](https://user-images.githubusercontent.com/55060788/233893979-2d67dfe3-432b-43d0-8682-3977f63827c3.png)
 
-2. Una vez descargado el archivo, descomprimirlo. Se verán los siguientes archivos:  
+Después de dar click, se descargará un archivo llamado Kaggle.json
 
-![image](https://user-images.githubusercontent.com/55060788/224440863-05ef3a77-8928-4c64-ab68-a122d808826c.png)  
+2. En el notebook de google Collab ejecutar las siguientes lineas de comando:
+```
+  !pip install kaggle
+  
+  from google.colab import files 
+  files.upload()
+```
+Luego dar click en el boton "Elegir archivos" para cargar el archivo .json
 
-3. Subir a la carpeta "content" los archivos: sample_submission, test y train:  
+![image](https://user-images.githubusercontent.com/55060788/233894298-1c75936e-c9ab-4c9d-8264-da97fa2920e0.png)
 
-![image](https://user-images.githubusercontent.com/55060788/224441011-352480e1-ede3-4dd5-96d8-b45dba523aff.png)  
+3. Por ultimo ejecutar las siguientes lineas de codigo:
 
-4. Ejecutar la primer linea del Collab:  
-
-![image](https://user-images.githubusercontent.com/55060788/224441239-d8942aff-42d2-49aa-8add-79efcedb486e.png)  
-
+```
+  ! mkdir ~/.kaggle
+  ! cp kaggle.json ~/.kaggle/
+  ! chmod 600 ~/.kaggle/kaggle.json
+  !kaggle competitions download -c allstate-claims-severity
+  !unzip allstate-claims-severity.zip
+```
 
 
 ## Videos
 
-[Video entrega 1]()  
-[Video entrega 2]()
+[Video entrega 2](https://youtu.be/wNEXl7stYR4)  
+[Video entrega final]()
